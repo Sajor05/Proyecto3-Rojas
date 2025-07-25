@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b408879b64.js"></script>
+    <title>Verduras General | El Almacén</title>
+</head>
+<body>
+
+    <header>
+
+      <!-----------------------------------------------
+        -- I N I C I O   N A V B A R  D E  L O G E O --    
+        ----------------------------------------------->
+
+        <nav class="navbar bg-light  mb-5" id="navbar-inicio">
+            <div class="container-fluid d-flex justify-content-between align-items-center px-4 py-2" id="header-list">
+                
+                <p class="fw-bold">Inicia sesion para comprar al mejor precio!</p>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="signin.html">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="signup.html">Registrarse</a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+      <!--------------------------------------------
+        -- F I N A L  N A V B A R  D E  L O G E O --    
+        -------------------------------------------->
+
+      <!-------------------------------------------------------
+        -- I N I C I O  D E  I N P U T  D E  B U S Q U E D A --    
+        ------------------------------------------------------->
+
+        <div class="busqueda-logo">
+            <a href="index.html"><img class="justify-content-start" src="src/logo/El_Almacen_logo.png" alt="logo"></a>
+            <div class="container-input">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+
+
+
+
+      <!-----------------------------------------------------
+        -- F I N A L  D E  I N P U T  D E  B U S Q U E D A --    
+        ----------------------------------------------------->
+
+      <!--------------------------------------------------------
+        -- I N I C I O  N A V B A R  D E  C A T E G O R I A S --    
+        -------------------------------------------------------->
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar-categorias">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CATEGORIAS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Almacen</a></li>
+                                <li><a class="dropdown-item" href="#">Frescos</a></li>
+                                <li><a class="dropdown-item" href="carnegeneral.html">Carniceria</a></li>
+                                <li><a class="dropdown-item" href="verdurasgeneral.html">Verduleria</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CARNICERÍA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="carnegeneral.html">General</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes vacunos</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes de cerdo</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes de pollo</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                VERDULERÍA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="verdurasgeneral.html">General</a></li>
+                                <li><a class="dropdown-item" href="#">Verdura</a></li>
+                                <li><a class="dropdown-item" href="#">Verdura en hoja</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">OFERTAS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sucursales.html">SUCURSALES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">FOLLETOS</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+      <!------------------------------------------------------
+        -- F I N A L  N A V B A R  D E  C A T E G O R I A S --    
+        ------------------------------------------------------>
+
+    </header>
+
+    <main class="container py-5">
+        <div class="row g-4">
+            <!--------------------
+            -- H I L E R A  1 --    
+            -------------------->
+
+            <!--Contenedor 1-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header-contenedor-producto">
+                        <h3 class="package-titulo">TOMATE REDONDO</h3>
+                        <div class="package-precio">
+                            <p>(Precio X Kilo: 1.800,00)</p>
+                        </div>
+                    </div>
+                        <br> <br>
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/tomate-redondo-portada.jpg" alt="Tomate redondo">
+                    </div>
+                        <br>
+                        <img class="img-fluid w-100" src="" alt="">
+                    <div class="text-center">
+                        <p class="fw-bold">$1.800,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+                        <br>
+                </div>            
+            </div>
+            
+
+
+
+            <!--Contenedor 2-->
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                            <h3 class="package-titulo">LECHUGA MANTECA</h3>
+                            <div class="package-precio">
+                                <p>(Peso X Kilo: 5.200,00)</p>
+                            </div>
+                    </div>
+                        <br> <br>
+                        <div class="contenedor-cuerpo">
+                            <br>
+                            <img class="img-fluid w-100" src="src/verduras_gral/lechuga-manteca-portada.jpg" alt="Lechuga manteca">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p class="fw-bold">$5.200,00</p>   
+                            <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                        </div>
+                        <br>
+                </div>        
+            </div>
+            
+
+            <!--Contenedor 3-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">AJO CHICO COLORADO</h3>
+                        <div class="package-precio">
+                            <br>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/ajo-portada.jpg" alt="Cabeza de ajo">
+                    </div>
+                    <br>
+                    
+                    <div class="text-center">
+                        <p class="fw-bold">$899,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+                    <br>
+                </div>            
+            </div>
+
+
+            <!--Contenedor 4-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">TOMATE PERITA</h3>
+                        <div class="package-precio">
+                            <p>(Precio X Kg: 1.599,00)</p>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/tomate-perita-portada.jpg" alt="Tomate perita">
+                    </div>
+                    <br>
+                    
+                    <div class="text-center">
+                        <p class="fw-bold">$1.599,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+                    <br>
+                </div>        
+            </div>
+
+
+            <!--------------------
+            -- H I L E R A  2 --    
+            -------------------->
+
+            <!--Contenedor 5-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header-contenedor-producto">
+                        <h3 class="package-titulo">AJI PICANTE VERDE</h3>
+                        <div class="package-precio">
+                            <p>(Precio X Kg: 6.000,00)</p>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/pimiento-portada.jpg" alt="Pimiento verde">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p class="fw-bold">$6.000,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+
+                    <br>
+
+                </div>        
+            </div>
+
+
+            <!--Contenedor 6-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">MORRON ROJO</h3>
+                        <div class="package-precio">
+                            <p>Peso Aprox: 500gr (Precio X Kilo)</p>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/morron-rojo-portada.jpg" alt="Morron rojo">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p class="fw-bold">$1.799,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+
+                    <br>
+
+                </div>        
+            </div>
+
+
+            <!--Contenedor 7-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">MORRON VERDE</h3>
+                        <div class="package-precio">
+                            <p>Peso Aprox. 500gr (Precio X Kg)</p>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/morron-verde-portada.jpg" alt="Morron verde">
+                    </div>
+                    <br>
+                    
+                    <div class="text-center">
+                        <p class="fw-bold">$2.000,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+                    <br>
+                </div>        
+            </div>
+
+
+            <!--Contenedor 8-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">ECHALOTE C/U</h3>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/echalote-portada.jpg" alt="Echalote">
+                    </div>
+                    <br>
+
+                    <div class="text-center">
+                        <p class="fw-bold">$3.200,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            
+
+
+
+            <!--------------------
+            -- H I L E R A  3 --    
+            -------------------->
+
+            <!--Contenedor 9-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header-contenedor-producto">
+                        <h3 class="package-titulo">CHOCLO</h3>
+                        <div class="package-precio">
+                                <p>(Precio X Kg: 5.999,00)</p>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/choclo-portada.jpg" alt="Choclo">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p class="fw-bold">$5.999,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+
+                    <br>
+
+                </div>
+            </div>
+
+
+            <!--Contenedor 10-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">PEPINO</h3>
+                        <div class="package-precio">
+                            <p>(Precio X Kg: 3.200,00)</p>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/pepino-portada.jpg" alt="Pepino">
+                    </div>
+                    <br>
+                    
+                    <div class="text-center">
+                        <p class="fw-bold">$3.200,00</p>  
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+
+                    <br>
+
+                </div>
+            </div>
+
+
+            <!--Contenedor 11-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">PEREJIL C/U</h3>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/perejil-portada.jpg" alt="Perejil">
+                    </div>
+                    <br>
+                    
+                    <div class="text-center">
+                        <p class="fw-bold" >1.300,00</p>   
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+                    <br>
+                </div>            
+            </div>
+
+
+            <!--Contenedor 12-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="contenedor-producto">
+
+                    <div class="header->contenedor-server">
+                        <h3 class="package-titulo">PUERRO</h3>
+                        <div class="package-precio">
+                            <div class="precio">
+                                <p>Peso Aprox. 250gr (Precio X Kg)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br> <br>
+
+                    <div class="contenedor-cuerpo">
+                        <br>
+                        <img class="img-fluid w-100" src="src/verduras_gral/puerro-portada.jpg" alt="Puerro">
+                    </div>
+                    <br>
+                    
+                    <div class="text-center">
+                        <p class="fw-bold" >4.600,00</p>  
+                        <a href="#" class="boton-comprar fw-bold" onclick="girarBoton(this)">COMPRAR</a>
+                    </div>
+                    <br>
+                </div>            
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="p-5 mt-5 text-center">
+        <div class="d-flex justify-content-center text-start flex-wrap gap-4">
+            <!-- Izquierda: Compra online -->
+            <div class="col-md-3">
+                <p>
+                    <span class="fw-bold">Compra online </span><br>
+                    ventasonlineelalmacen@gmail.com.ar<br>
+                    Tel.: 1234-5678<br>
+                    Atención Telefónica: Lunes a sábado de 8:30hs a 19:30hs.
+                </p>
+            </div>
+
+            <!-- Centro: Centro de distribución -->
+            <div class="col-md-4">
+                <p>
+                    <span class="fw-bold">Centro de distribución</span><br>
+                    centrodedistrubucionelalmacen@gmail.com.ar<br>
+                    Tel.: 1256-3478<br>
+                    Atención Telefónica: Lunes a sábados de 8:30 a 15:30hs.
+                </p>
+            </div>
+
+            <!-- Derecha: Oficinas centrales -->
+            <div class="col-md-3">
+                <p>
+                    <span class="fw-bold">Oficinas centrales</span><br>
+                    oficinacentralelalmacen@gmail.com.ar<br>
+                    Tel.: 9876-5432<br>
+                    Atención Telefónica: Lunes a viernes de 8:30hs a 20:30hs.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+   <!-----------------------
+    -- A N I M A C I O N  --    
+    ------------------------>
+
+    <script>
+    function girarBoton(elemento) {
+        event.preventDefault();
+        const href = elemento.getAttribute("href");
+        elemento.classList.remove("girando");
+        void elemento.offsetWidth;
+        elemento.classList.add("girando");
+        setTimeout(() => {
+        window.location.href = href;
+        }, 600);
+    }
+    </script>
+
+   <!-----------------------
+    -- A N I M A C I O N  --    
+    ------------------------>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

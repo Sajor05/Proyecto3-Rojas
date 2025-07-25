@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header #navbar-inicio a {
+  color: black;
+}
+header #navbar-inicio a:hover {
+  color: red;
+}
+header .busqueda-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 15px;
+}
+@media (min-width: 768px) {
+  header .busqueda-logo {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+header .busqueda-logo img {
+  width: 180px;
+  height: auto;
+}
+header .container-input {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+}
+header .container-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+header .container-input button {
+  background-color: red;
+  padding: 0 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+}
+header #navbar-categorias {
+  background-color: red;
+}
+header #navbar-categorias .container-fluid .navbar-toggler .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+header #navbar-categorias a {
+  color: white;
+}
+header #navbar-categorias .dropdown-item {
+  color: black;
+}
+header .nav-item a {
+  color: black;
+}
+header .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+main {
+  padding: 2rem;
+}
+main .row {
+  gap: 2rem 0;
+}
+main .contenedor-producto {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 30px;
+  height: 100%;
+}
+main .contenedor-producto .boton-comprar {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 2px 40px;
+  line-height: 3rem;
+  border: solid 2px black;
+  border-radius: 40px;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.6s ease-in-out;
+}
+main .contenedor-producto .boton-comprar.girando {
+  animation: girar 0.6s ease-in-out;
+}
+
+footer {
+  background-color: red;
+}
+footer h6 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

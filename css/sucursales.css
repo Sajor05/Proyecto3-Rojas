@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header #navbar-inicio a {
+  color: black;
+}
+header #navbar-inicio a:hover {
+  color: red;
+}
+header .busqueda-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 15px;
+}
+@media (min-width: 768px) {
+  header .busqueda-logo {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+header .busqueda-logo img {
+  width: 180px;
+  height: auto;
+}
+header .container-input {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+}
+header .container-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+header .container-input button {
+  background-color: red;
+  padding: 0 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+}
+header #navbar-categorias {
+  background-color: red;
+}
+header #navbar-categorias .container-fluid .navbar-toggler .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+header #navbar-categorias a {
+  color: white;
+}
+header #navbar-categorias .dropdown-item {
+  color: black;
+}
+header .nav-item a {
+  color: black;
+}
+header .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+center iframe {
+  border-radius: 5px;
+}
+
+.boton-llegar {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 2px 40px;
+  line-height: 3rem;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: rgb(54, 54, 163);
+  cursor: pointer;
+}
+
+footer {
+  background-color: red;
+}
+footer h6 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=sucursales.css.map */

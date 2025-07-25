@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/signin.css">
+    <title>Sign in | El Almacén</title>
+    <script src="https://kit.fontawesome.com/b408879b64.js"></script>
+</head>
+<body>
+    
+      <!-------------------------------
+        -- I N I C I O   H E A D E R --    
+        ------------------------------->
+    <header>
+
+      <!-----------------------------------------------
+        -- I N I C I O   N A V B A R  D E  L O G E O --    
+        ----------------------------------------------->
+
+        <nav class="navbar bg-light  mb-5" id="navbar-inicio">
+            <div class="container-fluid d-flex justify-content-between align-items-center px-4 py-2" id="header-list">
+                
+                <p class="fw-bold">Inicia sesion para comprar al mejor precio!</p>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="signin.html">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="signup.html">Registrarse</a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+      <!--------------------------------------------
+        -- F I N A L  N A V B A R  D E  L O G E O --    
+        -------------------------------------------->
+
+      <!-------------------------------------------------------
+        -- I N I C I O  D E  I N P U T  D E  B U S Q U E D A --    
+        ------------------------------------------------------->
+
+        <div class="busqueda-logo">
+            <a href="index.html"><img class="justify-content-start" src="src/logo/El_Almacen_logo.png" alt="logo"></a>
+            <div class="container-input">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+
+
+
+
+      <!-----------------------------------------------------
+        -- F I N A L  D E  I N P U T  D E  B U S Q U E D A --    
+        ----------------------------------------------------->
+
+      <!--------------------------------------------------------
+        -- I N I C I O  N A V B A R  D E  C A T E G O R I A S --    
+        -------------------------------------------------------->
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar-categorias">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CATEGORIAS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Almacen</a></li>
+                                <li><a class="dropdown-item" href="#">Frescos</a></li>
+                                <li><a class="dropdown-item" href="carnegeneral.html">Carniceria</a></li>
+                                <li><a class="dropdown-item" href="verdurasgeneral.html">Verduleria</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CARNICERÍA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="carnegeneral.html">General</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes vacunos</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes de cerdo</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes de pollo</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                VERDULERÍA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="verdurasgeneral.html">General</a></li>
+                                <li><a class="dropdown-item" href="#">Verdura</a></li>
+                                <li><a class="dropdown-item" href="#">Verdura en hoja</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">OFERTAS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sucursales.html">SUCURSALES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">FOLLETOS</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+      <!------------------------------------------------------
+        -- F I N A L  N A V B A R  D E  C A T E G O R I A S --    
+        ------------------------------------------------------>
+
+    </header>
+
+    <main class="login-register-area mtb-60px">
+        <div class="container mt-5">
+            <div class="row d-flex align-items-start">
+            
+                <!-- Columna: Iniciar Sesión -->
+                <div class="col-lg-6 border-end border-2 border-secondary pe-lg-5">
+                    <div class="login-register-wrapper d-flex flex-column justify-content-start h-100">
+                    <div class="tab-content">
+                        <div class="tab-pane active">
+                            <div class="login-form-container p-5">
+                                <div>
+                                    <h5 class="text-center">Iniciar Sesión</h5>
+                                    <br>
+                                    <hr><br>
+                                    <div class="anuncio">
+                                        Estimado cliente, las zonas de entrega sufrieron modificaciones. <br>
+                                        Actualmente las zonas son: Ituzaingo, Bella Vista, San Miguel, Moreno, Rodriguez, Castelar y Caseros. <br>
+                                        Disculpe los inconvenientes.
+                                    </div>
+                                    <hr>
+                                    <div class="formulario-de-Inicio-de-sesion">
+                                        <h6 class="text-center">Ingresá con tu email y contraseña.</h6>
+                                        <hr><br>
+                                        <form action="login-acciones.php?accion=LOGIN" method="post" name="calform">
+                                        <label class="mb-2">E-mail</label>
+                                        <input type="email" name="email" placeholder="Correo" class="form-control mb-3">
+                                        <label>Contraseña</label>
+                                        <input type="password" name="password" placeholder="Contraseña" class="form-control mb-3">
+
+                                        <div class="d-flex justify-content-center">
+                                            <a href="#" class="boton-acceder mt-3">Acceder</a>
+                                        </div>
+
+                                        <div class="button-box text-center mt-3">
+                                            <div class="login-toggle-btn">
+                                            <b><a class="flote-none" href="recuperar-acceso">¿Olvidaste tu contraseña?</a></b>
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna: Registrate -->
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="login-register-wrapper d-flex flex-column justify-content-start h-100">
+                        <div class="tab-content">
+                            <div class="tab-pane active">
+                                <div class="login-form-container p-5">
+                                    <div class="login-register-form text-center">
+                                        <h5>¿Sos nuevo?</h5>
+                                        <br>
+                                        <h6>Registrate</h6>
+                                        <hr><br>
+                                        <a href="#" class="boton-acceder">Registrarse</a>
+                                        <div class="mt-4">
+                                            <b>
+                                            <p>Hacé tu compra con tu cuenta y accedé a beneficios exclusivos.</p>
+                                            </b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="p-5 mt-5 text-center">
+        <div class="d-flex justify-content-center text-start flex-wrap gap-4">
+            <!-- Izquierda: Compra online -->
+            <div class="col-md-3">
+                <p>
+                    <span class="fw-bold">Compra online </span><br>
+                    ventasonlineelalmacen@gmail.com.ar<br>
+                    Tel.: 1234-5678<br>
+                    Atención Telefónica: Lunes a sábado de 8:30hs a 19:30hs.
+                </p>
+            </div>
+
+            <!-- Centro: Centro de distribución -->
+            <div class="col-md-4">
+                <p>
+                    <span class="fw-bold">Centro de distribución</span><br>
+                    centrodedistrubucionelalmacen@gmail.com.ar<br>
+                    Tel.: 1256-3478<br>
+                    Atención Telefónica: Lunes a sábados de 8:30 a 15:30hs.
+                </p>
+            </div>
+
+            <!-- Derecha: Oficinas centrales -->
+            <div class="col-md-3">
+                <p>
+                    <span class="fw-bold">Oficinas centrales</span><br>
+                    oficinacentralelalmacen@gmail.com.ar<br>
+                    Tel.: 9876-5432<br>
+                    Atención Telefónica: Lunes a viernes de 8:30hs a 20:30hs.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

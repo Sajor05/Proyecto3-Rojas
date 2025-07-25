@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+header #navbar-inicio a {
+  color: black;
+}
+header #navbar-inicio a:hover {
+  color: red;
+}
+header .busqueda-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  margin-top: -50px;
+}
+header img {
+  width: 250px;
+  height: 150px;
+  border-radius: 2px;
+}
+header .container-input {
+  position: relative;
+  left: 400px;
+  bottom: 25px;
+}
+header .container-input input {
+  width: 500px;
+  padding: 10px;
+  padding-right: 35px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+header .container-input button {
+  background-color: red;
+  padding: 10px 15px;
+  border: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0 5px 5px 0;
+  color: white;
+}
+header #navbar-categorias {
+  background-color: red;
+}
+header #navbar-categorias .container-fluid .navbar-toggler .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+header #navbar-categorias a {
+  color: white;
+}
+header #navbar-categorias .dropdown-item {
+  color: black;
+}
+header .nav-item a {
+  color: black;
+}
+header .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.login-register-wrapper {
+  min-height: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boton-acceder {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 2px 40px;
+  line-height: 3rem;
+  border: solid 2px black;
+  border-radius: 40px;
+  background-color: rgb(54, 54, 163);
+  cursor: pointer;
+}
+
+.login-form-container {
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+footer {
+  background-color: red;
+}
+footer h6 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=signin.css.map */

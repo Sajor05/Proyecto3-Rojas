@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/sucursales.css">
+    <script src="https://kit.fontawesome.com/b408879b64.js"></script>
+    <title>Sucursales | El Almacén</title>
+</head>
+<body>
+    
+      <!-------------------------------
+        -- I N I C I O   H E A D E R --    
+        ------------------------------->
+    <header>
+
+      <!-----------------------------------------------
+        -- I N I C I O   N A V B A R  D E  L O G E O --    
+        ----------------------------------------------->
+
+        <nav class="navbar bg-light  mb-5" id="navbar-inicio">
+            <div class="container-fluid d-flex justify-content-between align-items-center px-4 py-2" id="header-list">
+                
+                <p class="fw-bold">Inicia sesion para comprar al mejor precio!</p>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="signin.html">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="signup.html">Registrarse</a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+      <!--------------------------------------------
+        -- F I N A L  N A V B A R  D E  L O G E O --    
+        -------------------------------------------->
+
+      <!-------------------------------------------------------
+        -- I N I C I O  D E  I N P U T  D E  B U S Q U E D A --    
+        ------------------------------------------------------->
+
+        <div class="busqueda-logo">
+            <a href="index.html"><img class="justify-content-start" src="src/logo/El_Almacen_logo.png" alt="logo"></a>
+            <div class="container-input">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+
+
+
+
+      <!-----------------------------------------------------
+        -- F I N A L  D E  I N P U T  D E  B U S Q U E D A --    
+        ----------------------------------------------------->
+
+      <!--------------------------------------------------------
+        -- I N I C I O  N A V B A R  D E  C A T E G O R I A S --    
+        -------------------------------------------------------->
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar-categorias">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CATEGORIAS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Almacen</a></li>
+                                <li><a class="dropdown-item" href="#">Frescos</a></li>
+                                <li><a class="dropdown-item" href="carnegeneral.html">Carniceria</a></li>
+                                <li><a class="dropdown-item" href="verdurasgeneral.html">Verduleria</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CARNICERÍA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="carnegeneral.html">General</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes vacunos</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes de cerdo</a></li>
+                                <li><a class="dropdown-item" href="#">Cortes de pollo</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                VERDULERÍA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="verdurasgeneral.html">General</a></li>
+                                <li><a class="dropdown-item" href="#">Verdura</a></li>
+                                <li><a class="dropdown-item" href="#">Verdura en hoja</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">OFERTAS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sucursales.html">SUCURSALES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">FOLLETOS</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+      <!------------------------------------------------------
+        -- F I N A L  N A V B A R  D E  C A T E G O R I A S --    
+        ------------------------------------------------------>
+
+    </header>
+
+      <!-----------------------------
+        -- F I N A L   H E A D E R --    
+        ----------------------------->
+
+
+    <main class="d-flex justify-content-center gap-5 flex-wrap mt-4">
+    <!-- Columna izquierda -->
+        <div class="col-md-5">
+            <p class="fw-bold mt-3">Seleccionar Sucursal</p>
+            <select name="select" class="input-select form-control mb-4">
+            <option value="1">Sucursal MORON NORTE</option>
+            <option value="2">Sucursal ITUZAINGO CENTRO</option>
+            <option value="3">Sucursal MORENO</option>
+            <option value="4">Sucursal GRAL. RODRIGUEZ</option>
+            <option value="5">Sucursal CASTELAR SUR</option>
+            <option value="6">Sucursal CASTELAR NORTE</option>
+            <option value="7">Sucursal ITUZAINGO NORTE</option>
+            <option value="8">Sucursal HURLINGHAM CENTRO</option>
+            <option value="9">Sucursal CIUDADELA</option>
+            <option value="10">Sucursal CASEROS</option>
+            <option value="11">Sucursal HURLINGHAM NORTE</option>
+            </select>
+
+            <div class="mb-3">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="d-inline ms-2">Crisólogo Larralde 1023, Morón</p><br>
+            <i class="fa-solid fa-alarm-clock"></i>
+            <p class="d-inline ms-2">Lunes a domingos y feriados de 8:00 a 22:00 Hs.</p><br>
+            <a href="https://maps.app.goo.gl/NCocsXkthvwYY5Nn9" class="boton-llegar mt-3 fw-bold btn btn-primary">Cómo llegar</a>
+            </div>
+        </div>
+
+        <!-- Columna derecha: Mapa -->
+        <div class="col-md-6">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13129.949080123924!2d-58.62069688268552!3d-34.64239521727811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7a91a8f98fd%3A0x61a2cb5a4ea4a975!2sAlmac%C3%A9n%20natural%20Beneri!5e0!3m2!1ses!2sar!4v1753424478978!5m2!1ses!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer class="p-5 mt-5 text-center">
+        <div class="d-flex justify-content-center text-start flex-wrap gap-4">
+            <!-- Izquierda: Compra online -->
+            <div class="col-md-3">
+                <p>
+                    <span class="fw-bold">Compra online </span><br>
+                    ventasonlineelalmacen@gmail.com.ar<br>
+                    Tel.: 1234-5678<br>
+                    Atención Telefónica: Lunes a sábado de 8:30hs a 19:30hs.
+                </p>
+            </div>
+
+            <!-- Centro: Centro de distribución -->
+            <div class="col-md-4">
+                <p>
+                    <span class="fw-bold">Centro de distribución</span><br>
+                    centrodedistrubucionelalmacen@gmail.com.ar<br>
+                    Tel.: 1256-3478<br>
+                    Atención Telefónica: Lunes a sábados de 8:30 a 15:30hs.
+                </p>
+            </div>
+
+            <!-- Derecha: Oficinas centrales -->
+            <div class="col-md-3">
+                <p>
+                    <span class="fw-bold">Oficinas centrales</span><br>
+                    oficinacentralelalmacen@gmail.com.ar<br>
+                    Tel.: 9876-5432<br>
+                    Atención Telefónica: Lunes a viernes de 8:30hs a 20:30hs.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
