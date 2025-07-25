@@ -7,10 +7,10 @@ body {
 }
 
 header #navbar-inicio a {
-  color: black;
+  color: #1a1a1a;
 }
 header #navbar-inicio a:hover {
-  color: red;
+  color: #ff0000;
 }
 header .busqueda-logo {
   display: flex;
@@ -42,14 +42,14 @@ header .container-input input {
   outline: none;
 }
 header .container-input button {
-  background-color: red;
+  background-color: #ff0000;
   padding: 0 20px;
   border: none;
   border-radius: 0 5px 5px 0;
-  color: white;
+  color: #FFFFFF;
 }
 header #navbar-categorias {
-  background-color: red;
+  background-color: #ff0000;
 }
 header #navbar-categorias .container-fluid .navbar-toggler .navbar-toggler-icon {
   filter: brightness(0) invert(1);
@@ -58,10 +58,10 @@ header #navbar-categorias a {
   color: white;
 }
 header #navbar-categorias .dropdown-item {
-  color: black;
+  color: #1a1a1a;
 }
 header .nav-item a {
-  color: black;
+  color: #1a1a1a;
 }
 header .nav-item.dropdown:hover .dropdown-menu {
   display: block;
@@ -93,11 +93,11 @@ main .contenedor-producto .boton-comprar {
   font-size: 1rem;
   padding: 2px 40px;
   line-height: 3rem;
-  border: solid 2px black;
+  border: solid 2px #1a1a1a;
   border-radius: 40px;
-  background-color: red;
+  background-color: #ff0000;
   cursor: pointer;
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   transition: transform 0.6s ease-in-out;
 }
@@ -106,13 +106,13 @@ main .contenedor-producto .boton-comprar.girando {
 }
 
 footer {
-  background-color: red;
+  background-color: #ff0000;
 }
 footer h6 {
-  color: white;
+  color: #FFFFFF;
 }
 footer p {
-  color: white;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

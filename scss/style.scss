@@ -1,3 +1,5 @@
+@use "variables";
+
 *{
     margin: 0;
 }
@@ -12,12 +14,13 @@ header{
 
     #navbar-inicio{
         a{
-            color: black;
+            color: variables.$secondary-color;
             &:hover{
-                color: red;
+                color: variables.$primary-color;
             }
         }
     }
+
 
     .busqueda-logo {
         display: flex;
@@ -52,33 +55,34 @@ header{
         }
 
         button {
-            background-color: red;
+            background-color: variables.$primary-color;
             padding: 0 20px;
             border: none;
             border-radius: 0 5px 5px 0;
-            color: white;
+            color: variables.$extra-color;
         }
     }
 
     #navbar-categorias{
-        background-color: red;
+        background-color: variables.$primary-color;
         .container-fluid{
             .navbar-toggler{
                 .navbar-toggler-icon{
                     filter: brightness(0) invert(1);
                 }
+                
             }
         }
         a{
             color: white;
         }
         .dropdown-item{
-            color: black;
+            color: variables.$secondary-color;
         }
     }
 
     .nav-item a{
-        color: black;
+        color: variables.$secondary-color;
     }
     .nav-item.dropdown:hover .dropdown-menu {
         display: block;
@@ -115,11 +119,11 @@ main {
       font-size: 1rem;
       padding: 2px 40px;
       line-height: 3rem;
-      border: solid 2px black;
+      border: solid 2px variables.$secondary-color;
       border-radius: 40px;
-      background-color: red;
+      background-color: variables.$primary-color;
       cursor: pointer;
-      color: white;
+      color: variables.$extra-color;
       text-decoration: none;
       transition: transform 0.6s ease-in-out;
 
@@ -132,11 +136,12 @@ main {
 
 
 footer{
-    background-color: red;
+    background-color: variables.$primary-color;
     h6{
-        color: white;
+        color: variables.$extra-color;
     }
     p{
-        color: white;
+        color: variables.$extra-color;
     }
 }
+
